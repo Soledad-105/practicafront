@@ -1,53 +1,127 @@
-body {background: #FF2479}
-h1 { background-color: #7A2242;}
+body {background-color: #161A17;
+      background-image: url(../imagenes/foton.jpg);
+      background-attachment: fixed;
+     }
+
+h1 { background-color: #19401E;}
 h1 { color:white;}
+.Alinear {text-align: center;}
 .center {text-decoration: underline;}
 .center {text-align: center;}
 .center {font-family: fantasy;}
+.brocolo {text-align: center;}
+.brocolo {color: white;}
+.brocolo {font-family:fantasy; }
+.brocolo {font-size: 45px;}
+.brocolo {background-color:#19401E }
+.brocolo {text-decoration: underline;}
 .brocoli {text-decoration: underline;}
-.brocoli {background-color: #19401E;}
 .brocoli {color: white;}
-.brocoli {font-size: 45px;}
-.brocoli {font-family: serif;}
+.brocoli {font-size: 30px;}
+.brocoli {font-family: fantasy;;}
 .azulcito {text-decoration: underline;}
-.azulcito {background-color: #1E1A4F;}
+.azulcito {text-align: center;}
+.azulcito {background-color: #19401E;}
 .azulcito {color: white;}
 .azulcito {font-size: 45px;}
-.azulcito {font-family: serif;}
+.azulcito {font-family: fantasy;}
 h1 {font-size: 65px;}
 li {font-size: 25px;}
 li {text-decoration: underline;}
+li {color: white;}
 .honguito {font-size:30px; }
-.honguito {background-color: #BAD7E8;}
+.honguito {background-color: #19401E;}
 .honguito {color: white}
-.honguito {font-family: cursive;}
-.cereza {color: black}
+.honguito {font-family: serif;;}
+.cereza {color: white;}
 .cereza {font-family: fantasy;}
 .cereza {font-size: 25px;}
 .cereza {text-decoration: underline;}
 .helado {font-size: 60px;}
 .inf {font-size: 40px;}
-.inf {font-family: fantasy;}
-.inf {background-color: #B01072}
+.inf {font-family: sans-serif;;}
+.inf {background-color: #19401E}
 .inf {color: white;}
 .chiken {font-size: 35px;}
+.chiken {font-family: sans-serif;}
 .rosado{text-decoration: underline;}
-.rosado {background: #FF2479;}
+.rosado {background:  #FC90B9;
+         background-image: url(../imagenes/verde.jpg);
+}
 .rosado {text-align: center;}
 .deco {font-size: 30px;}
-.deco {font-family: serif;}
-.deco1 {font-family: serif;}
-.deco2 {font-family: serif;}
-.deco2 {background: #FF2479;}
+.deco {font-family:  inherit;;}
+.deco {color:white  ;}
+.deco {text-align: center;}
+.deco {text-decoration: underline;}
+.deco1 {font-family: inherit;;}
+.deco1 {text-align: center;}
+.deco1 {text-decoration: underline;}
+.deco1 {color:white }
+.deco2 {font-family: inherit;;}
+.deco2 {background: #184F1D;}
+.deco2 {color: white}
+.deco2 {text-align: center;}
+.deco3 {text-align: center;}
 .deco3 {font-size: 35px;}
 .deco3 {font-family: serif;}
-.deco3 {background: #FF2479;}
-.wsp{background:#FC90B9;}
-.ig {background: #FC90B9;}
-.tk {background: #FC90B9;}
-.feis {background: #FC90B9;}
+.deco3 {color: white;}
+.deco3 {background: #184F1D;}
+.wsp{background: :#FC90B9;
+    background-image: url(../imagenes/verde.jpg);
+   }
+.ig {background: #FC90B9;
+     background-image: url(../imagenes/verde.jpg);
+}
+.tk {background: #FC90B9;
+   background-image: url(../imagenes/verde.jpg);
+}
+ .feis {background: #FC90B9;
+  background-image: url(../imagenes/verde.jpg);
+}
+.wiwi {font-size: 30px}
+.wiwi {color: white}
+.wiwi {text-align: center;}
 .deco4 {font-size: 45px;}
 .deco4 {text-align: center;}
-.deco5 {font-size: 45px;}
-.deco6 {font-size: 50px;}
+.deco5 {font-size: 30px;}
+.deco5 {font-family: sans-serif;}
+.deco6 {font-size: 30px;}
+.deco6 {font-family: sans-serif;}
 .deco6 {text-align: center;}
+.video {border: solid 30px;
+        border-color: #19401E ;
+}
+
+.mapa {border: solid 30px;}
+.recet {font-size: 35px}
+.recet {font-family:sans-serif;}
+.recet2 {font-size: 35px}
+.recet2 {font-family: sans-serif;}
+
+.conter {
+
+  display: flex;
+  justify-content: center;
+}
+
+.ap1 { margin-right: 20px;}
+.ap1 {border: solid 10px;
+      border-color:#184F1D ; }
+.ap2 {margin-right: 20px}
+.ap2 {border: solid 10px;
+      border-color: #184F1D;}
+.ap3 {margin-right: 20px;}
+.ap3 {border: solid 10px;
+      border-color: #184F1D;}
+
+.botoncito {
+  position:  fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+  z-index: 100;
+  box-shadow: green;
+}
