@@ -6,6 +6,7 @@ body {background-color: #161A17;
 
 .header {
   background: #19401E;
+  border: 2px solid black;
   display: flex;
 justify-content: space-around;
 height: 70px;
@@ -151,6 +152,11 @@ li {color: white;}
 .deco6 {text-align: center;}
 .deco6 {
   background-color: #184F1D;
+
+}
+.deco6 {
+  margin-bottom: 30px;
+  border: 2px solid black;
 }
 .video {border: solid 30px;
         border-color: #19401E ;
@@ -211,6 +217,7 @@ li {color: white;}
 }
 .footer {
   background-color: #184F1D;
+  border: 2px solid black;
 }
 .infor {
   max-width: 250px;
@@ -270,4 +277,35 @@ margin-bottom: 70px;
 }
 .dropdown-item {
   font-family: sans-serif;
+}
+.creadoras {
+  font-family: serif;
+  color: white;
+  background: #184F1D;
+  border: 2px solid black;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.carr {
+  font-family: serif;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.carr {
+  background: #184F1D;
+  border: 2px solid black;
+}
+.card-title {
+  font-family: fantasy;
+  color: blue;
+}
+.card-text {
+  font-family: serif;
+}
+.container {
+  margin-bottom: 40px;
+
 }
