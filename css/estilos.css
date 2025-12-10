@@ -371,14 +371,24 @@ margin-bottom: 20px;
  background-image: url(../imagenes/rosita.jpg);
 }
 
-
+.volverr{
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  margin-bottom: 20px;
+  background-image: url(../imagenes/rosita.jpg);
+}
 .dv3 {
   margin-left: 20px;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
   color: white;
     margin-bottom: 50px;
+}
+.giff {
+  display: flex;
+  flex-wrap: wrap;
 }
 .ensa {
   text-align: center;
