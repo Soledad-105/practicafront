@@ -1,311 +1,476 @@
-body {background-color: #161A17;
-      background-image: url(../imagenes/foton.jpg);
-      background-attachment: fixed;
-      font-family: sans-serif;
-     }
-
-.header {
-  background: #19401E;
-  border: 2px solid black;
-  display: flex;
-justify-content: space-around;
-height: 70px;
-padding: 50px;
+.body {
+  background: white;
 }
-.header {
-display: flex;
-flex-wrap: wrap;}
-
-.logo {
-  background: #19401E;
-  color: white;
-  font-size: 25px;
+.title {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  justify-content: center;
+
 }
-.logo {
+.title {font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 75,
+    "EHLT" 5;}
+.titulop {
+  background-image: url(../imagenes/red.jpg);
+  padding: 30px;
+  margin-bottom: 40px;
+  border: solid 2px black;
+  border-width:  medium;
+  border-radius: 2px;
+
+}
+.menú {
   display: flex;
-  flex-wrap: wrap;
-}
+  justify-content: space-around;
 
-.lohoimg{
-height: 100px;}
-.logoimg {
-  border: solid 10px;
-  border-color: white;
 }
-
-.redes {
+.menú {
+background-image: url(../imagenes/rojo.jpg);
+  font-family: "Sirin Stencil", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: normal;
+  border: solid 2px black;
+  margin-bottom: 50px;
+}
+.t1 {
   display: flex;
   justify-content: center;
-  justify-content: space-between;
-  height: 90px;}
-  .redes{margin-right: 20px;}
-
-
-  .nav { }
-
-.p1 {border: solid 5px;
-      border-color: #184F1D;}
-.p2 {border: solid 5px;
-      border-color: #184F1D;}
-  .p3 {border: solid 5px;
-        border-color: #184F1D;}
-
-.brocolo {text-align: center;}
-.brocolo {color: white;}
-.brocolo {font-family:fantasy; }
-.brocolo {font-size: 45px;}
-.brocolo {background-color:#19401E }
-.brocolo {text-decoration: underline;}
-.brocoli {text-decoration: underline;}
-.brocoli {color: white;}
-.brocoli {font-size: 30px;}
-.brocoli {font-family: fantasy;;}
-.azulcito {text-decoration: underline;}
-.azulcito {text-align: center;}
-.azulcito {background-color: #19401E;}
-.azulcito {color: white;}
-.azulcito {font-size: 45px;}
-.azulcito {font-family: fantasy;}
-li {font-size: 25px;}
-li {text-decoration: underline;}
-li {color: white;}
-.honguito {font-size:30px; }
-.honguito {background-color: #19401E;}
-.honguito {color: white}
-.honguito {font-family: serif;;}
-.cereza {color: white;}
-.cereza {font-family: fantasy;}
-.cereza {font-size: 25px;}
-.cereza {text-decoration: underline;}
-.helado {font-size: 60px;}
-.inf {font-size: 40px;}
-.inf {font-family: sans-serif;;}
-.inf {background-color: #19401E}
-.inf {color: white;}
-.chiken {font-size: 35px;}
-.chiken {font-family: sans-serif;}
-.rosado{text-decoration: underline;}
-.rosado {background:  #FC90B9;
-         background-image: url(../imagenes/verde.jpg);
+  background-image: url(../imagenes/red.jpg);
+margin-bottom: 30px;
 }
-.rosado {
-  color: green;
+.t1 {
+
+
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 75,
+      "EHLT" 5;
+  }
+  .carruseles {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carruseles {
+    width: 50vw;}
+.deco {
+  display: flex;
+  justify-content: center;
+  border: solid 2px black;
+  background-image: url(../imagenes/rojo.jpg);
 }
-.rosado {text-align: center;}
-.deco {font-size: 30px;}
-.deco {font-family:  inherit;;}
-.deco {color:white  ;}
-.deco {text-align: center;}
-.deco {text-decoration: underline;}
-.deco1 {font-family: inherit;;}
-.deco1 {text-align: center;}
-.deco1 {text-decoration: underline;}
-.deco1 {color:white }
-.deco2 {font-family: inherit;;}
-.deco2 {background: #184F1D;}
-.deco2 {color: white}
-.deco2 {text-align: center;}
-.deco3 {text-align: center;}
-.deco3 {font-size: 35px;}
-.deco3 {font-family: serif;}
-.deco3 {color: white;}
-.deco3 {background: #184F1D;}
-.wsp{background: #FC90B9;
-    background-image: url(../imagenes/verde.jpg);
+.deco {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 75,
+    "EHLT" 5;
+}
+.asidee {
+background-image: url(../imagenes/rojo.jpg);
+padding: 20px;
+border-radius: 10px;
+width: 250px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;}
+.asidee {
+  float: right;
+  margin-left: 40px;}
+.asidee {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 75,
+    "EHLT" 5;
+
+ }
+ .list {
+   font-family: serif;
+   color: white;
+   text-decoration: underline;
+ }
+ .rec {
+   font-family: "Nabla", system-ui;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+     "EDPT" 75,
+     "EHLT" 5;
+ display: flex;
+ justify-content: center;
+ border: solid 2px red;
+ background-image: url(../imagenes/red.jpg);
+
+ }
+
+ .card-title {
+   font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
    }
-   .wsp {
-     color: green;
+   .card-text {
+     font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+
    }
+   .card{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ border: solid 2px black;
+}
 
-.ig {background: #FC90B9;
-     background-image: url(../imagenes/verde.jpg);
+.decop {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 75,
+    "EHLT" 5;
+    display: flex;
+justify-content: center;
+border: solid 2px red;
+background-image: url(../imagenes/rojo.jpg);
 }
-.ig {
-  color: pink;
-}
-.tk {background: #FC90B9;
-   background-image: url(../imagenes/verde.jpg);
-}
-.tk {
-  color: red;
-}
- .feis {background: #FC90B9;
-  background-image: url(../imagenes/verde.jpg);
-}
-.feis {
-  color: blue;
-}
-.wiwi {font-size: 30px}
-.wiwi {color: white}
-.wiwi {text-align: center;}
-.deco4 {font-size: 45px;}
-.deco4 {text-align: center;}
-.deco5 {font-size: 30px;}
-.deco5 {font-family: sans-serif;}
-.deco6 {font-size: 30px;}
-.deco6 {font-family: sans-serif;}
-.deco6 {color: white;
-}
-.deco6 {text-align: center;}
-.deco6 {
-  background-color: #184F1D;
 
+.deco1 {
+  display: flex;
+  justify-content: center;
+  border: solid 2px red;
+  background-image: url(../imagenes/red.jpg);
+margin-bottom: 20px;
+font-family: sans-serif;
+color: white;
 }
-.deco6 {
+.fim {
+  display: flex;
+  justify-content: center;
+  border: solid 2px red;
+  background-image: url(../imagenes/rojo.jpg);
+margin-bottom: 20px;
+font-family: sans-serif;
+color: white;
+}
+.footer {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;}
+
+  .redes {
+  display: flex;
+  gap: 20px;
+  }
+  .redes {
+  border: solid black;
+  background-image: url(../imagenes/rojo.jpg);
+    padding: 30px;
+    height: 150px;
+  }
+
+  .autor
+  {
+      display: flex;
+      margin-top: 18px;
+      height: 20%;
+      border: underline;
+      outline: none;
+      color: white;
+      font-size: 1.3rem;
+      font-weight: 500;
+      border-radius: 10px;
+      cursor: pointer;
+      background-image: url(../imagenes/negron.jpg);
+      font-family: serif;
+  }
+  .modo-inclusivo{
+    display: block;
+     margin: 20px auto;
+     padding: 20px 10px;
+     font-size: 16px;
+     color: white;
+     background-color: black;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+}
+.modo-inclusivo: hover{ background-color: red;}
+body.inclusivo .modo-inclusivo{ background-color: white;
+                                color: black;}
+
+body.inclusivo{background-color: black!important; color: white !important;}
+
+body.inclusivo.modo-inclusivo: hover{ background-color: black;}
+
+
+
+
+
+.bdy {
+  background: #145229;
+}
+.volver {
+  background-image: url(../imagenes/verd.jpg);
+    font-family: "Sirin Stencil", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    border: solid 2px black;
+    margin-bottom: 50px;
+  }
+.tt {
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
-  border: 2px solid black;
 }
-.video {border: solid 30px;
-        border-color: #19401E ;
+.tt {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  border: solid 2px black;
+  background-image: url(../imagenes/verd.jpg);
+
+}
+.gif {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "IM Fell Great Primer SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+
 }
 
-.mapass {
+
+  .titlee {
+    display: flex;
+    justify-content: center;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    border: solid 2px green;
+    background-image: url(../imagenes/verd.jpg);
+    margin-bottom: 50px;
+  }
+.fam {
+  display: flex;
+  justify-content: center;
+  border: solid 2px green;
+  background-image: url(../imagenes/verd.jpg);
+margin-bottom: 20px;
+font-family: sans-serif;
+color: white;
+}
+.footeer {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;}
+
+  .redes {
+  display: flex;
+  gap: 20px;
+  }
+  .redess {
+  border: solid white;
+  background-image: url(../imagenes/verdee.jpg);
+    padding: 30px;
+    height: 150px;
+  }
+.pp1 {
+  border: solid 2px white;
+}
+.pp2 {
+  border: solid 2px white;
+}
+.pp3 {
+  border: solid 2px white;
+}
+
+.bodyy {
+  background-color: pink;
+}
+.titule {
+  display: flex;
+  justify-content: center;
+  font-family: "Purple Purse", serif;
+ font-weight: 400;
+ font-style: normal;
+ color: black;
+ border: solid 2px black;
+ background-image: url(../imagenes/rosita.jpg);
+ margin-bottom: 100px;
+}
+.volver {
+display: flex;
+justify-content: space-around;
+margin-bottom: 20px;
+}
+.dv {
+  margin-left: 20px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  color: white;
+    margin-bottom: 50px;
 }
-.mapass {
-  margin-bottom: 40px;
+.cere {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+ font-size: 60px;
+ border: solid 1px pink;
+ border-width: 150px;
+ background-image: url(../imagenes/rosita.jpg);
 }
 
-.alinear2 {
+
+.dv2 {
+  margin-left: 20px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  color: white;
+    margin-bottom: 50px;
+
+}
+.sala {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+ font-size: 60px;
+ color: white;
+ border: solid 2px pink;
+ border-width: 150px;
+ background-image: url(../imagenes/rosita.jpg);
 }
 
 
-
-.recet {font-size: 35px}
-.recet {font-family:sans-serif;}
-.recet2 {font-size: 35px}
-.recet2 {font-family: sans-serif;}
-
-
-
-.ap1 { margin-right: 20px;}
-.ap1 {border: solid 10px;
-      border-color:#184F1D ; }
-.ap2 {margin-right: 20px}
-.ap2 {border: solid 10px;
-      border-color: #184F1D;}
-.ap3 {margin-right: 20px;}
-.ap3 {border: solid 10px;
-      border-color: #184F1D;}
-
-.botoncito {
-  position:  fixed;
-  width: 30px;
-  height: 60px;
-  bottom: 10px;
-  right: 20px;
-  border-radius: 50px;
-  z-index: 100;
-  box-shadow: green;
-  transform: scale(1.1);}
-
-
-
-.footer{
+.dv3 {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: white;
+    margin-bottom: 50px;
+}
+.ensa {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+ font-size: 60px;
+ border: solid 2px pink;
+ border-width: 150px;
+ background-image: url(../imagenes/rosita.jpg);
+}
+.footerr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap;}
 }
-.footer {
-  background-color: #184F1D;
-  border: 2px solid black;
+.redesss{
+  display: flex;
+  gap: 20px;
+  }
+  .redesss {
+  border: solid white;
+  background-image: url(../imagenes/rosita.jpg);
+    padding: 30px;
+    height: 150px;}
+
+
+.cuerpo {
+  background-image: url(../imagenes/azul.gif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
 }
-.infor {
-  max-width: 250px;
+    .titlep {
+      display: flex;
+      justify-content: center;
+      color: white;
+      border: solid 2px white;
+      background: blue;
+    }
+.titlep {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: white;
+    margin-bottom: 100px;
+}
+.contey {
   text-align: center;
-  font-size: 18px;
-}
-.infor {font-size: 30px;
   color: white;
-  font-family:  monospace;
-}
-.infor {
-  background-color: black;
-  padding: 20px;
-}
-.redes {
-display: flex;
-gap: 20px;
-}
-.redes {
-border: solid black;
-  padding: 30px;
-  height: 150px;
-}
-nav {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-nav {
-  gap: 10px;
-}
-
-.carrusel { width: 100vw;
-margin-bottom: 70px;
-}
-.carrusel {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.costado {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-bottom: 70px;
-}
-.costado {
+  border: solid 2px white;
   font-family: serif;
+  margin-bottom: 100px;
+
 }
-.bet {
-  border: solid blue 5px;
+.inff{
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  font-family: serif;
+  margin-bottom: 100px;
+}
+.vv {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.btn{
+  border: solid black 3px;
   padding: 10px;
 }
-.dropdown {
-
+.btn1{
+  border: solid #9C2007 3px;
+  padding: 10px;
 }
-.dropdown-item {
-  font-family: sans-serif;
+.btn2 {
+  border: solid pink 3px;
+  padding: 10px;
 }
-.creadoras {
-  font-family: serif;
-  color: white;
-  background: #184F1D;
-  border: 2px solid black;
-  text-decoration: underline;
-  text-align: center;
-  margin-bottom: 40px;
+.btn3 {
+  border: solid green 3px;
+  padding: 10px;
 }
-.carr {
-  font-family: serif;
-  color: white;
-  text-decoration: underline;
-  text-align: center;
-  margin-bottom: 40px;
-}
-.carr {
-  background: #184F1D;
-  border: 2px solid black;
-}
-.card-title {
-  font-family: fantasy;
-  color: blue;
-}
-.card-text {
-  font-family: serif;
-}
-.container {
-  margin-bottom: 40px;
-
-}
+.botoncito {
+  position: fixed;
+               bottom: 35px;
+               right: 35px;
+               padding: 10px;
+               z-index: 9999 !important;
+             }
+  .icono-flotante{ width: 100px;
+                         height: 100px;
+                         border-radius: 50% 50%;}
